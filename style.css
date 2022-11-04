@@ -1,14 +1,18 @@
 body {
     font-family: 'Roboto',
         sans-serif;
+    margin: 0;
 }
 
 .display {
     width: 50%;
+    margin-bottom: 150px;
+    margin-left: 25px;
 }
 
 .display img {
     width: 50%;
+
 }
 
 section {
@@ -17,4 +21,27 @@ section {
 
 .top {
     background-image: url(image/Frame\ 58.jpg);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+
+    background-image: linear-gradient(red, brown);
+    text-decoration-line: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.food {
+    background-image: url(image/7.png);
+    background-repeat: no-repeat;
+}
+
+.exercise {
+    background-image: url(image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
 }
