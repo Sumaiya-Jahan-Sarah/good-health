@@ -75,22 +75,41 @@ a {
     text-align: center;
 }
 
-.twit {
+h2 {
+    font-size: 70px;
+    color: coral;
+
+}
+
+.site {
+    text-align: center;
+
+}
+
+#follower {
     display: flex;
     box-shadow: 25px 25px 10px gray;
+    border-radius: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
-.follow {
-    padding: 50px 60px;
-    margin: 15px;
-    box-shadow: 25px 25px 10px gray;
-}
-
-.sub {
-    font-size: 60px;
-}
-
-.net {
+.site-name {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+footer h3 {
+    color: coral;
+
 }
